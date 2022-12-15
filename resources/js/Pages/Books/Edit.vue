@@ -31,7 +31,7 @@
         <BreezeAuthenticatedLayout>
             <template #header>
                 <h2 class="text-xl font-semibold leading-tight text-gray-800">
-                    Book Edit
+                    Editar Libro
                 </h2>
             </template>
 
@@ -44,7 +44,7 @@
                                     <label
                                         for="Title"
                                         class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-                                        >Title</label
+                                        >Titulo: </label
                                     >
                                     <input
                                         type="text"
@@ -64,7 +64,7 @@
                                     <label
                                         for="Autor"
                                         class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-                                        >Autor</label
+                                        >Autor: </label
                                     >
                                     <input
                                         type="text"
@@ -84,7 +84,7 @@
                                     <label
                                         for="review"
                                         class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-                                        >Review</label
+                                        >Resumen: </label
                                     >
                                     <textarea
                                         type="text"
@@ -103,12 +103,13 @@
                                 </div>
                                 <button
                                     type="submit"
-                                    class="text-white bg-blue-700  focus:outline-none  font-medium rounded-lg text-sm px-5 py-2.5 "
+                                    class="text-white bg-green-700  focus:outline-none  font-medium rounded-lg text-sm px-5 py-2.5 "
                                     :disabled="form.processing"
                                     :class="{ 'opacity-25': form.processing }"
                                 >
-                                    Submit
+                                    Actualizar Libro
                                 </button>
+
                             </form>
                         </div>
                     </div>
